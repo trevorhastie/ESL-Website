@@ -1,0 +1,101 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2001.07.31.04.10.04;	author tibs;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@NCI microarray data (chap 14)
+
+Source and reference:
+
+http://genome-www.stanford.edu/nci60/
+
+
+NCI microarray data
+ 
+6830 genes
+missing values have been imputed via SVD
+60 cell lines, labels are below
+
+
+CNS          
+CNS        
+CNS        
+RENAL      
+BREAST    
+CNS       
+CNS       
+BREAST      
+NSCLC       
+NSCLC    
+RENAL         
+RENAL     
+RENAL       
+RENAL       
+RENAL       
+RENAL         
+RENAL        
+BREAST 
+NSCLC      
+RENAL       
+UNKNOWN    
+OVARIAN    
+MELANOMA
+PROSTATE   
+OVARIAN    
+OVARIAN  
+OVARIAN     
+OVARIAN    
+OVARIAN    
+PROSTATE   
+NSCLC        
+NSCLC        
+NSCLC     
+LEUKEMIA
+K562B-repro               
+K562A-repro               
+LEUKEMIA   
+LEUKEMIA  
+LEUKEMIA    
+LEUKEMIA  
+LEUKEMIA       
+COLON      
+COLON       
+COLON      
+COLON        
+COLON     
+COLON      
+COLON     
+MCF7A-repro               
+BREAST       
+MCF7D-repro               
+BREAST     
+NSCLC     
+NSCLC     
+NSCLC    
+MELANOMA 
+BREAST 
+BREAST      
+MELANOMA     
+MELANOMA
+MELANOMA  
+MELANOMA 
+MELANOMA  
+MELANOMA 
+@

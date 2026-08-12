@@ -1,0 +1,375 @@
+Preface to the Second Edition/1,Black,notBold,notItalic,closed,FitPage,-1
+Preface to the First Edition/1,Black,notBold,notItalic,closed,FitPage,-1
+1 Introduction/1,Black,notBold,notItalic,closed,FitPage,-1
+2 Overview of Supervised Learning/9,Black,notBold,notItalic,closed,FitPage,-1
+	2.1 Introduction/9,Black,notBold,notItalic,closed,FitPage,-1
+	2.2 Variable Types and Terminology/9,Black,notBold,notItalic,closed,FitPage,-1
+	2.3 Two Simple Approaches to Prediction:Least Squares and Nearest Neighbors/11,Black,notBold,notItalic,closed,FitPage,-1
+		2.3.1 Linear Models and Least Squares/11,Black,notBold,notItalic,closed,FitPage,-1
+		2.3.2 Nearest-Neighbor Methods/14,Black,notBold,notItalic,closed,FitPage,-1
+		2.3.3 From Least Squares to Nearest Neighbors/16,Black,notBold,notItalic,closed,FitPage,-1
+	2.4 Statistical Decision Theory/18,Black,notBold,notItalic,closed,FitPage,-1
+	2.5 Local Methods in High Dimensions/22,Black,notBold,notItalic,closed,FitPage,-1
+	2.6 Statistical Models, Supervised Learningand Function Approximation/28,Black,notBold,notItalic,closed,FitPage,-1
+		2.6.1 A Statistical Modelfor the Joint Distribution Pr(X,Y)/28,Black,notBold,notItalic,closed,FitPage,-1
+		2.6.2 Supervised Learning/29,Black,notBold,notItalic,closed,FitPage,-1
+		2.6.3 Function Approximation/29,Black,notBold,notItalic,closed,FitPage,-1
+	2.7 Structured Regression Models/32,Black,notBold,notItalic,closed,FitPage,-1
+		2.7.1 Difficulty of the Problem/32,Black,notBold,notItalic,closed,FitPage,-1
+	2.8 Classes of Restricted Estimators/33,Black,notBold,notItalic,closed,FitPage,-1
+		2.8.1 Roughness Penalty and Bayesian Methods/34,Black,notBold,notItalic,closed,FitPage,-1
+		2.8.2 Kernel Methods and Local Regression/34,Black,notBold,notItalic,closed,FitPage,-1
+		2.8.3 Basis Functions and Dictionary Methods/35,Black,notBold,notItalic,closed,FitPage,-1
+	2.9 Model Selection and the Bias–Variance Tradeoff/37,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/39,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/39,Black,notBold,notItalic,closed,FitPage,-1
+3 Linear Methods for Regression/43,Black,notBold,notItalic,closed,FitPage,-1
+	3.1 Introduction/43,Black,notBold,notItalic,closed,FitPage,-1
+	3.2 Linear Regression Models and Least Squares/44,Black,notBold,notItalic,closed,FitPage,-1
+		3.2.1 Example: Prostate Cancer/49,Black,notBold,notItalic,closed,FitPage,-1
+		3.2.2 The Gauss–Markov Theorem/51,Black,notBold,notItalic,closed,FitPage,-1
+		3.2.3 Multiple Regressionfrom Simple Univariate Regression/52,Black,notBold,notItalic,closed,FitPage,-1
+		3.2.4 Multiple Outputs/56,Black,notBold,notItalic,closed,FitPage,-1
+	3.3 Subset Selection/57,Black,notBold,notItalic,closed,FitPage,-1
+		3.3.1 Best-Subset Selection/57,Black,notBold,notItalic,closed,FitPage,-1
+		3.3.2 Forward- and Backward-Stepwise Selection/58,Black,notBold,notItalic,closed,FitPage,-1
+		3.3.3 Forward-Stagewise Regression/60,Black,notBold,notItalic,closed,FitPage,-1
+		3.3.4 Prostate Cancer Data Example (Continued)/61,Black,notBold,notItalic,closed,FitPage,-1
+	3.4 Shrinkage Methods/61,Black,notBold,notItalic,closed,FitPage,-1
+		3.4.1Ridge Regression/61,Black,notBold,notItalic,closed,FitPage,-1
+		3.4.2 The Lasso/68,Black,notBold,notItalic,closed,FitPage,-1
+		3.4.3 Discussion: Subset Selection, Ridge Regressionand the Lasso/69,Black,notBold,notItalic,closed,FitPage,-1
+		3.4.4 Least Angle Regression/73,Black,notBold,notItalic,closed,FitPage,-1
+	3.5 Methods Using Derived Input Directions/79,Black,notBold,notItalic,closed,FitPage,-1
+		3.5.1 Principal Components Regression/79,Black,notBold,notItalic,closed,FitPage,-1
+		3.5.2 Partial Least Squares/80,Black,notBold,notItalic,closed,FitPage,-1
+	3.6 Discussion: A Comparison of the Selectionand Shrinkage Methods/82,Black,notBold,notItalic,closed,FitPage,-1
+	3.7 Multiple Outcome Shrinkage and Selection/84,Black,notBold,notItalic,closed,FitPage,-1
+	3.8 More on the Lasso and Related Path Algorithms/86,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.1 Incremental Forward Stagewise Regression/86,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.2 Piecewise-Linear Path Algorithms/89,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.3 The Dantzig Selector/89,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.4 The Grouped Lasso/90,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.5 Further Properties of the Lasso/91,Black,notBold,notItalic,closed,FitPage,-1
+		3.8.6 Pathwise Coordinate Optimization/92,Black,notBold,notItalic,closed,FitPage,-1
+	3.9 Computational Considerations/93,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/94,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/94,Black,notBold,notItalic,closed,FitPage,-1
+4 Linear Methods for Classification/101,Black,notBold,notItalic,closed,FitPage,-1
+	4.1 Introduction/101,Black,notBold,notItalic,closed,FitPage,-1
+	4.2 Linear Regression of an Indicator Matrix/103,Black,notBold,notItalic,closed,FitPage,-1
+	4.3 Linear Discriminant Analysis/106,Black,notBold,notItalic,closed,FitPage,-1
+		4.3.1 Regularized Discriminant Analysis/112,Black,notBold,notItalic,closed,FitPage,-1
+		4.3.2 Computations for LDA/113,Black,notBold,notItalic,closed,FitPage,-1
+		4.3.3 Reduced-Rank Linear Discriminant Analysis/113,Black,notBold,notItalic,closed,FitPage,-1
+	4.4 Logistic Regression/119,Black,notBold,notItalic,closed,FitPage,-1
+		4.4.1 Fitting Logistic Regression Models/120,Black,notBold,notItalic,closed,FitPage,-1
+		4.4.2 Example: South African Heart Disease/122,Black,notBold,notItalic,closed,FitPage,-1
+		4.4.3 Quadratic Approximations and Inference/124,Black,notBold,notItalic,closed,FitPage,-1
+		4.4.4L1Regularized Logistic Regression/125,Black,notBold,notItalic,closed,FitPage,-1
+		4.4.5 Logistic Regression or LDA?/127,Black,notBold,notItalic,closed,FitPage,-1
+	4.5 Separating Hyperplanes/129,Black,notBold,notItalic,closed,FitPage,-1
+		4.5.1 Rosenblatt’s Perceptron Learning Algorithm/130,Black,notBold,notItalic,closed,FitPage,-1
+		4.5.2 Optimal Separating Hyperplanes/132,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/135,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/135,Black,notBold,notItalic,closed,FitPage,-1
+5 Basis Expansions and Regularization/139,Black,notBold,notItalic,closed,FitPage,-1
+	5.1 Introduction/139,Black,notBold,notItalic,closed,FitPage,-1
+	5.2 Piecewise Polynomials and Splines/141,Black,notBold,notItalic,closed,FitPage,-1
+		5.2.1 Natural Cubic Splines/144,Black,notBold,notItalic,closed,FitPage,-1
+		5.2.2 Example: South African Heart Disease (Continued)/146,Black,notBold,notItalic,closed,FitPage,-1
+		5.2.3 Example: Phoneme Recognition/148,Black,notBold,notItalic,closed,FitPage,-1
+	5.3 Filtering and Feature Extraction/150,Black,notBold,notItalic,closed,FitPage,-1
+	5.4 Smoothing Splines/151,Black,notBold,notItalic,closed,FitPage,-1
+		5.4.1 Degrees of Freedom and Smoother Matrices/153,Black,notBold,notItalic,closed,FitPage,-1
+	5.5 Automatic Selection of the Smoothing Parameters/156,Black,notBold,notItalic,closed,FitPage,-1
+		5.5.1 Fixing the Degrees of Freedom/158,Black,notBold,notItalic,closed,FitPage,-1
+		5.5.2 The Bias–Variance Tradeoff/158,Black,notBold,notItalic,closed,FitPage,-1
+	5.6 Nonparametric Logistic Regression/161,Black,notBold,notItalic,closed,FitPage,-1
+	5.7 Multidimensional Splines/162,Black,notBold,notItalic,closed,FitPage,-1
+	5.8 Regularization and Reproducing Kernel Hilbert Spaces/167,Black,notBold,notItalic,closed,FitPage,-1
+		5.8.1 Spaces of Functions Generated by Kernels/168,Black,notBold,notItalic,closed,FitPage,-1
+		5.8.2 Examples of RKHS/170,Black,notBold,notItalic,closed,FitPage,-1
+	5.9 Wavelet Smoothing/174,Black,notBold,notItalic,closed,FitPage,-1
+		5.9.1 Wavelet Bases and the Wavelet Transform/176,Black,notBold,notItalic,closed,FitPage,-1
+		5.9.2 Adaptive Wavelet Filtering/179,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/181,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/181,Black,notBold,notItalic,closed,FitPage,-1
+	Appendix: Computational Considerations for Splines/186,Black,notBold,notItalic,closed,FitPage,-1
+	Appendix:B-splines/186,Black,notBold,notItalic,closed,FitPage,-1
+	Appendix: Computations for Smoothing Splines/189,Black,notBold,notItalic,closed,FitPage,-1
+6 Kernel Smoothing Methods/191,Black,notBold,notItalic,closed,FitPage,-1
+	6.1 One-Dimensional Kernel Smoothers/192,Black,notBold,notItalic,closed,FitPage,-1
+		6.1.1 Local Linear Regression/194,Black,notBold,notItalic,closed,FitPage,-1
+		6.1.2 Local Polynomial Regression/197,Black,notBold,notItalic,closed,FitPage,-1
+	6.2 Selecting the Width of the Kernel/198,Black,notBold,notItalic,closed,FitPage,-1
+	6.3 Local Regression in IRp./200,Black,notBold,notItalic,closed,FitPage,-1
+	6.4 Structured Local Regression Models in IRp./201,Black,notBold,notItalic,closed,FitPage,-1
+		6.4.1 Structured Kernels/203,Black,notBold,notItalic,closed,FitPage,-1
+		6.4.2 Structured Regression Functions/203,Black,notBold,notItalic,closed,FitPage,-1
+	6.5 Local Likelihood and Other Models/205,Black,notBold,notItalic,closed,FitPage,-1
+	6.6 Kernel Density Estimation and Classification/208,Black,notBold,notItalic,closed,FitPage,-1
+		6.6.1 Kernel Density Estimation/208,Black,notBold,notItalic,closed,FitPage,-1
+		6.6.2 Kernel Density Classification/210,Black,notBold,notItalic,closed,FitPage,-1
+		6.6.3 The Naive Bayes Classifier/210,Black,notBold,notItalic,closed,FitPage,-1
+	6.7 Radial Basis Functions and Kernels/212,Black,notBold,notItalic,closed,FitPage,-1
+	6.8 Mixture Models for Density Estimation and Classification/214,Black,notBold,notItalic,closed,FitPage,-1
+	6.9 Computational Considerations/216,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/216,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/216,Black,notBold,notItalic,closed,FitPage,-1
+7 Model Assessment and Selection/219,Black,notBold,notItalic,closed,FitPage,-1
+	7.1 Introduction/219,Black,notBold,notItalic,closed,FitPage,-1
+	7.2 Bias, Variance and Model Complexity/219,Black,notBold,notItalic,closed,FitPage,-1
+	7.3 The Bias–Variance Decomposition/223,Black,notBold,notItalic,closed,FitPage,-1
+		7.3.1 Example: Bias–Variance Tradeoff/226,Black,notBold,notItalic,closed,FitPage,-1
+	7.4 Optimism of the Training Error Rate/228,Black,notBold,notItalic,closed,FitPage,-1
+	7.5 Estimates of In-Sample Prediction Error/230,Black,notBold,notItalic,closed,FitPage,-1
+	7.6 The Effective Number of Parameters/232,Black,notBold,notItalic,closed,FitPage,-1
+	7.7 The Bayesian Approach and BIC/233,Black,notBold,notItalic,closed,FitPage,-1
+	7.8 Minimum Description Length/235,Black,notBold,notItalic,closed,FitPage,-1
+	7.9 Vapnik–Chervonenkis Dimension/237,Black,notBold,notItalic,closed,FitPage,-1
+		7.9.1 Example (Continued)/239,Black,notBold,notItalic,closed,FitPage,-1
+	7.10 Cross-Validation/241,Black,notBold,notItalic,closed,FitPage,-1
+	7.1	0.1K-Fold Cross-Validation/241,Black,notBold,notItalic,closed,FitPage,-1
+	7.1	0.2 The Wrong and Right Wayto Do Cross-validation/245,Black,notBold,notItalic,closed,FitPage,-1
+	7.1	0.3 Does Cross-Validation Really Work?/247,Black,notBold,notItalic,closed,FitPage,-1
+	7.11 Bootstrap Methods/249,Black,notBold,notItalic,closed,FitPage,-1
+	7.1	1.1 Example (Continued)/252,Black,notBold,notItalic,closed,FitPage,-1
+	7.12 Conditional or Expected Test Error?/254,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/257,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/257,Black,notBold,notItalic,closed,FitPage,-1
+8 Model Inference and Averaging/261,Black,notBold,notItalic,closed,FitPage,-1
+	8.1 Introduction/261,Black,notBold,notItalic,closed,FitPage,-1
+	8.2 The Bootstrap and Maximum Likelihood Methods/261,Black,notBold,notItalic,closed,FitPage,-1
+		8.2.1 A Smoothing Example/261,Black,notBold,notItalic,closed,FitPage,-1
+		8.2.2 Maximum Likelihood Inference/265,Black,notBold,notItalic,closed,FitPage,-1
+		8.2.3 Bootstrap versus Maximum Likelihood/267,Black,notBold,notItalic,closed,FitPage,-1
+	8.3 Bayesian Methods/267,Black,notBold,notItalic,closed,FitPage,-1
+	8.4 Relationship Between the Bootstrapand Bayesian Inference/271,Black,notBold,notItalic,closed,FitPage,-1
+	8.5 The EM Algorithm/272,Black,notBold,notItalic,closed,FitPage,-1
+		8.5.1 Two-Component Mixture Model/272,Black,notBold,notItalic,closed,FitPage,-1
+		8.5.2 The EM Algorithm in General/276,Black,notBold,notItalic,closed,FitPage,-1
+		8.5.3 EM as a Maximization–Maximization Procedure/277,Black,notBold,notItalic,closed,FitPage,-1
+	8.6 MCMC for Sampling from the Posterior/279,Black,notBold,notItalic,closed,FitPage,-1
+	8.7 Bagging/282,Black,notBold,notItalic,closed,FitPage,-1
+		8.7.1 Example: Trees with Simulated Data/283,Black,notBold,notItalic,closed,FitPage,-1
+	8.8 Model Averaging and Stacking/288,Black,notBold,notItalic,closed,FitPage,-1
+	8.9 Stochastic Search: Bumping/290,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/292,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/293,Black,notBold,notItalic,closed,FitPage,-1
+9 Additive Models, Trees, and Related Methods/295,Black,notBold,notItalic,closed,FitPage,-1
+	9.1 Generalized Additive Models/295,Black,notBold,notItalic,closed,FitPage,-1
+		9.1.1 Fitting Additive Models/297,Black,notBold,notItalic,closed,FitPage,-1
+		9.1.2 Example: Additive Logistic Regression/299,Black,notBold,notItalic,closed,FitPage,-1
+		9.1.3 Summary/304,Black,notBold,notItalic,closed,FitPage,-1
+	9.2 Tree-Based Methods/305,Black,notBold,notItalic,closed,FitPage,-1
+		9.2.1 Background/305,Black,notBold,notItalic,closed,FitPage,-1
+		9.2.2 Regression Trees/307,Black,notBold,notItalic,closed,FitPage,-1
+		9.2.3 Classification Trees/308,Black,notBold,notItalic,closed,FitPage,-1
+		9.2.4 Other Issues/310,Black,notBold,notItalic,closed,FitPage,-1
+		9.2.5 Spam Example (Continued)/313,Black,notBold,notItalic,closed,FitPage,-1
+	9.3 PRIM: Bump Hunting/317,Black,notBold,notItalic,closed,FitPage,-1
+		9.3.1 Spam Example (Continued)/320,Black,notBold,notItalic,closed,FitPage,-1
+	9.4 MARS: Multivariate Adaptive Regression Splines/321,Black,notBold,notItalic,closed,FitPage,-1
+		9.4.1 Spam Example (Continued)/326,Black,notBold,notItalic,closed,FitPage,-1
+		9.4.2 Example (Simulated Data)/327,Black,notBold,notItalic,closed,FitPage,-1
+		9.4.3 Other Issues/328,Black,notBold,notItalic,closed,FitPage,-1
+	9.5 Hierarchical Mixtures of Experts/329,Black,notBold,notItalic,closed,FitPage,-1
+	9.6 Missing Data/332,Black,notBold,notItalic,closed,FitPage,-1
+	9.7 Computational Considerations/334,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/334,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/335,Black,notBold,notItalic,closed,FitPage,-1
+10 Boosting and Additive Trees/337,Black,notBold,notItalic,closed,FitPage,-1
+	10.1 Boosting Methods/337,Black,notBold,notItalic,closed,FitPage,-1
+		10.1.1 Outline of This Chapter/340,Black,notBold,notItalic,closed,FitPage,-1
+	10.2 Boosting Fits an Additive Model/341,Black,notBold,notItalic,closed,FitPage,-1
+	10.3 Forward Stagewise Additive Modeling/342,Black,notBold,notItalic,closed,FitPage,-1
+	10.4 Exponential Loss and AdaBoost/343,Black,notBold,notItalic,closed,FitPage,-1
+	10.5 Why Exponential Loss?/345,Black,notBold,notItalic,closed,FitPage,-1
+	10.6 Loss Functions and Robustness/346,Black,notBold,notItalic,closed,FitPage,-1
+	10.7 “Off-the-Shelf” Procedures for Data Mining/350,Black,notBold,notItalic,closed,FitPage,-1
+	10.8 Example: Spam Data/352,Black,notBold,notItalic,closed,FitPage,-1
+	10.9 Boosting Trees/353,Black,notBold,notItalic,closed,FitPage,-1
+	10.10 Numerical Optimization via Gradient Boosting/358,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	0.1 Steepest Descent/358,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	0.2 Gradient Boosting/359,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	0.3 Implementations of Gradient Boosting/360,Black,notBold,notItalic,closed,FitPage,-1
+	10.11 Right-Sized Trees for Boosting/361,Black,notBold,notItalic,closed,FitPage,-1
+	10.12 Regularization/364,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	2.1 Shrinkage/364,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	2.2 Subsampling/365,Black,notBold,notItalic,closed,FitPage,-1
+	10.13 Interpretation/367,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	3.1 Relative Importance of Predictor Variables/367,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	3.2 Partial Dependence Plots/369,Black,notBold,notItalic,closed,FitPage,-1
+	10.14 Illustrations/371,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	4.1 California Housing/371,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	4.2 New Zealand Fish/375,Black,notBold,notItalic,closed,FitPage,-1
+	10.1	4.3 Demographics Data/379,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/380,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/384,Black,notBold,notItalic,closed,FitPage,-1
+11 Neural Networks/389,Black,notBold,notItalic,closed,FitPage,-1
+	11.1 Introduction/389,Black,notBold,notItalic,closed,FitPage,-1
+	11.2 Projection Pursuit Regression/389,Black,notBold,notItalic,closed,FitPage,-1
+	11.3 Neural Networks/392,Black,notBold,notItalic,closed,FitPage,-1
+	11.4 Fitting Neural Networks/395,Black,notBold,notItalic,closed,FitPage,-1
+	11.5 Some Issues in Training Neural Networks/397,Black,notBold,notItalic,closed,FitPage,-1
+		11.5.1 Starting Values/397,Black,notBold,notItalic,closed,FitPage,-1
+		11.5.2 Overfitting/398,Black,notBold,notItalic,closed,FitPage,-1
+		11.5.3 Scaling of the Inputs/398,Black,notBold,notItalic,closed,FitPage,-1
+		11.5.4 Number of Hidden Units and Layers/400,Black,notBold,notItalic,closed,FitPage,-1
+		11.5.5 Multiple Minima/400,Black,notBold,notItalic,closed,FitPage,-1
+	11.6 Example: Simulated Data/401,Black,notBold,notItalic,closed,FitPage,-1
+	11.7 Example: ZIP Code Data/404,Black,notBold,notItalic,closed,FitPage,-1
+	11.8 Discussion/408,Black,notBold,notItalic,closed,FitPage,-1
+	11.9 Bayesian Neural Nets and the NIPS/2003 Challenge/409,Black,notBold,notItalic,closed,FitPage,-1
+		11.9.1 Bayes, Boosting and Bagging/410,Black,notBold,notItalic,closed,FitPage,-1
+		11.9.2 Performance Comparisons/412,Black,notBold,notItalic,closed,FitPage,-1
+	11.10 Computational Considerations/414,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/415,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/415,Black,notBold,notItalic,closed,FitPage,-1
+12 Support Vector Machines andFlexible Discriminants/417,Black,notBold,notItalic,closed,FitPage,-1
+	12.1 Introduction/417,Black,notBold,notItalic,closed,FitPage,-1
+	12.2 The Support Vector Classifier/417,Black,notBold,notItalic,closed,FitPage,-1
+		12.2.1 Computing the Support Vector Classifier/420,Black,notBold,notItalic,closed,FitPage,-1
+		12.2.2 Mixture Example (Continued)/421,Black,notBold,notItalic,closed,FitPage,-1
+	12.3 Support Vector Machines and Kernels/423,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.1 Computing the SVM for Classification/423,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.2 The SVM as a Penalization Method/426,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.3 Function Estimation and Reproducing Kernels/428,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.4 SVMs and the Curse of Dimensionality/431,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.5 A Path Algorithm for the SVM Classifier/432,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.6 Support Vector Machines for Regression/434,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.7 Regression and Kernels/436,Black,notBold,notItalic,closed,FitPage,-1
+		12.3.8 Discussion/438,Black,notBold,notItalic,closed,FitPage,-1
+	12.4 Generalizing Linear Discriminant Analysis/438,Black,notBold,notItalic,closed,FitPage,-1
+	12.5 Flexible Discriminant Analysis/440,Black,notBold,notItalic,closed,FitPage,-1
+		12.5.1 Computing the FDA Estimates/444,Black,notBold,notItalic,closed,FitPage,-1
+	12.6 Penalized Discriminant Analysis/446,Black,notBold,notItalic,closed,FitPage,-1
+	12.7 Mixture Discriminant Analysis/449,Black,notBold,notItalic,closed,FitPage,-1
+		12.7.1 Example: Waveform Data/451,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/455,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/455,Black,notBold,notItalic,closed,FitPage,-1
+13 Prototype Methods and Nearest-Neighbors/459,Black,notBold,notItalic,closed,FitPage,-1
+	13.1 Introduction/459,Black,notBold,notItalic,closed,FitPage,-1
+	13.2 Prototype Methods/459,Black,notBold,notItalic,closed,FitPage,-1
+		13.2.1K-means Clustering/460,Black,notBold,notItalic,closed,FitPage,-1
+		13.2.2 Learning Vector Quantization/462,Black,notBold,notItalic,closed,FitPage,-1
+		13.2.3 Gaussian Mixtures/463,Black,notBold,notItalic,closed,FitPage,-1
+	13.3k-Nearest-Neighbor Classifiers/463,Black,notBold,notItalic,closed,FitPage,-1
+		13.3.1 Example: A Comparative Study/468,Black,notBold,notItalic,closed,FitPage,-1
+		13.3.2 Example:k-Nearest-Neighborsand Image Scene Classification/470,Black,notBold,notItalic,closed,FitPage,-1
+		13.3.3 Invariant Metrics and Tangent Distance/471,Black,notBold,notItalic,closed,FitPage,-1
+	13.4 Adaptive Nearest-Neighbor Methods/475,Black,notBold,notItalic,closed,FitPage,-1
+		13.4.1 Example/478,Black,notBold,notItalic,closed,FitPage,-1
+		13.4.2 Global Dimension Reductionfor Nearest-Neighbors/479,Black,notBold,notItalic,closed,FitPage,-1
+	13.5 Computational Considerations/480,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/481,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/481,Black,notBold,notItalic,closed,FitPage,-1
+14 Unsupervised Learning/485,Black,notBold,notItalic,closed,FitPage,-1
+	14.1 Introduction/485,Black,notBold,notItalic,closed,FitPage,-1
+	14.2 Association Rules/487,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.1 Market Basket Analysis/488,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.2 The Apriori Algorithm/489,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.3 Example: Market Basket Analysis/492,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.4 Unsupervised as Supervised Learning/495,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.5 Generalized Association Rules/497,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.6 Choice of Supervised Learning Method/499,Black,notBold,notItalic,closed,FitPage,-1
+		14.2.7 Example: Market Basket Analysis (Continued)/499,Black,notBold,notItalic,closed,FitPage,-1
+	14.3 Cluster Analysis/501,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.1 Proximity Matrices/503,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.2 Dissimilarities Based on Attributes/503,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.3 Object Dissimilarity/505,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.4 Clustering Algorithms/507,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.5 Combinatorial Algorithms/507,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.6K-means/509,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.7 Gaussian Mixtures as SoftK-means Clustering/510,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.8 Example: Human Tumor Microarray Data/512,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.9 Vector Quantization/514,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.10K-medoids/515,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.11 Practical Issues/518,Black,notBold,notItalic,closed,FitPage,-1
+		14.3.12 Hierarchical Clustering/520,Black,notBold,notItalic,closed,FitPage,-1
+	14.4 Self-Organizing Maps/528,Black,notBold,notItalic,closed,FitPage,-1
+	14.5 Principal Components, Curves and Surfaces/534,Black,notBold,notItalic,closed,FitPage,-1
+		14.5.1 Principal Components/534,Black,notBold,notItalic,closed,FitPage,-1
+		14.5.2 Principal Curves and Surfaces/541,Black,notBold,notItalic,closed,FitPage,-1
+		14.5.3 Spectral Clustering/544,Black,notBold,notItalic,closed,FitPage,-1
+		14.5.4 Kernel Principal Components/547,Black,notBold,notItalic,closed,FitPage,-1
+		14.5.5 Sparse Principal Components/550,Black,notBold,notItalic,closed,FitPage,-1
+	14.6 Non-negative Matrix Factorization/553,Black,notBold,notItalic,closed,FitPage,-1
+		14.6.1 Archetypal Analysis/554,Black,notBold,notItalic,closed,FitPage,-1
+	14.7 Independent Component Analysisand Exploratory Projection Pursuit/557,Black,notBold,notItalic,closed,FitPage,-1
+		14.7.1 Latent Variables and Factor Analysis/558,Black,notBold,notItalic,closed,FitPage,-1
+		14.7.2 Independent Component Analysis/560,Black,notBold,notItalic,closed,FitPage,-1
+		14.7.3 Exploratory Projection Pursuit/565,Black,notBold,notItalic,closed,FitPage,-1
+		14.7.4 A Direct Approach to ICA/565,Black,notBold,notItalic,closed,FitPage,-1
+	14.8 Multidimensional Scaling/570,Black,notBold,notItalic,closed,FitPage,-1
+	14.9 Nonlinear Dimension Reductionand Local Multidimensional Scaling/572,Black,notBold,notItalic,closed,FitPage,-1
+	14.10 The Google PageRank Algorithm/576,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/578,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/579,Black,notBold,notItalic,closed,FitPage,-1
+15 Random Forests/587,Black,notBold,notItalic,closed,FitPage,-1
+	15.1 Introduction/587,Black,notBold,notItalic,closed,FitPage,-1
+	15.2 Definition of Random Forests/587,Black,notBold,notItalic,closed,FitPage,-1
+	15.3 Details of Random Forests/592,Black,notBold,notItalic,closed,FitPage,-1
+		15.3.1 Out of Bag Samples/592,Black,notBold,notItalic,closed,FitPage,-1
+		15.3.2 Variable Importance/593,Black,notBold,notItalic,closed,FitPage,-1
+		15.3.3 Proximity Plots/595,Black,notBold,notItalic,closed,FitPage,-1
+		15.3.4 Random Forests and Overfitting/596,Black,notBold,notItalic,closed,FitPage,-1
+	15.4 Analysis of Random Forests/597,Black,notBold,notItalic,closed,FitPage,-1
+		15.4.1 Variance and the De-Correlation Effect/597,Black,notBold,notItalic,closed,FitPage,-1
+		15.4.2 Bias/600,Black,notBold,notItalic,closed,FitPage,-1
+		15.4.3 Adaptive Nearest Neighbors/601,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/602,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/603,Black,notBold,notItalic,closed,FitPage,-1
+16 Ensemble Learning/605,Black,notBold,notItalic,closed,FitPage,-1
+	16.1 Introduction/605,Black,notBold,notItalic,closed,FitPage,-1
+	16.2 Boosting and Regularization Paths/607,Black,notBold,notItalic,closed,FitPage,-1
+		16.2.1 Penalized Regression/607,Black,notBold,notItalic,closed,FitPage,-1
+		16.2.2 The “Bet on Sparsity” Principle/610,Black,notBold,notItalic,closed,FitPage,-1
+		16.2.3 Regularization Paths, Over-fitting and Margins/613,Black,notBold,notItalic,closed,FitPage,-1
+	16.3 Learning Ensembles/616,Black,notBold,notItalic,closed,FitPage,-1
+		16.3.1 Learning a Good Ensemble/617,Black,notBold,notItalic,closed,FitPage,-1
+		16.3.2 Rule Ensembles/622,Black,notBold,notItalic,closed,FitPage,-1
+	Bibliographic Notes/623,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/624,Black,notBold,notItalic,closed,FitPage,-1
+17 Undirected Graphical Models/625,Black,notBold,notItalic,closed,FitPage,-1
+	17.1 Introduction/625,Black,notBold,notItalic,closed,FitPage,-1
+	17.2 Markov Graphs and Their Properties/627,Black,notBold,notItalic,closed,FitPage,-1
+	17.3 Undirected Graphical Models for Continuous Variables./630,Black,notBold,notItalic,closed,FitPage,-1
+		17.3.1 Estimation of the Parameterswhen the Graph Structure is Known/631,Black,notBold,notItalic,closed,FitPage,-1
+		17.3.2 Estimation of the Graph Structure/635,Black,notBold,notItalic,closed,FitPage,-1
+	17.4 Undirected Graphical Models for Discrete Variables/638,Black,notBold,notItalic,closed,FitPage,-1
+		17.4.1 Estimation of the Parameterswhen the Graph Structure is Known/639,Black,notBold,notItalic,closed,FitPage,-1
+		17.4.2 Hidden Nodes/641,Black,notBold,notItalic,closed,FitPage,-1
+		17.4.3 Estimation of the Graph Structure/642,Black,notBold,notItalic,closed,FitPage,-1
+		17.4.4 Restricted Boltzmann Machines/643,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/645,Black,notBold,notItalic,closed,FitPage,-1
+18 High-Dimensional Problems:p≫N/649,Black,notBold,notItalic,closed,FitPage,-1
+	18.1 Whenpis Much Bigger thanN./649,Black,notBold,notItalic,closed,FitPage,-1
+	18.2 Diagonal Linear Discriminant Analysisand Nearest Shrunken Centroids/651,Black,notBold,notItalic,closed,FitPage,-1
+	18.3 Linear Classifiers with Quadratic Regularization./654,Black,notBold,notItalic,closed,FitPage,-1
+		18.3.1 Regularized Discriminant Analysis/656,Black,notBold,notItalic,closed,FitPage,-1
+		18.3.2 Logistic Regressionwith Quadratic Regularization/657,Black,notBold,notItalic,closed,FitPage,-1
+		18.3.3 The Support Vector Classifier/657,Black,notBold,notItalic,closed,FitPage,-1
+		18.3.4 Feature Selection/658,Black,notBold,notItalic,closed,FitPage,-1
+		18.3.5 Computational Shortcuts Whenp≫N./659,Black,notBold,notItalic,closed,FitPage,-1
+	18.4 Linear Classifiers withL1Regularization/661,Black,notBold,notItalic,closed,FitPage,-1
+		18.4.1 Application of Lassoto Protein Mass Spectroscopy/664,Black,notBold,notItalic,closed,FitPage,-1
+		18.4.2 The Fused Lasso for Functional Data/666,Black,notBold,notItalic,closed,FitPage,-1
+	18.5 Classification When Features are Unavailable/668,Black,notBold,notItalic,closed,FitPage,-1
+		18.5.1 Example: String Kernelsand Protein Classification/668,Black,notBold,notItalic,closed,FitPage,-1
+		18.5.2 Classification and Other Models UsingInner-Product Kernels and Pairwise Distances/670,Black,notBold,notItalic,closed,FitPage,-1
+		18.5.3 Example: Abstracts Classification/672,Black,notBold,notItalic,closed,FitPage,-1
+	18.6 High-Dimensional Regression:Supervised Principal Components/674,Black,notBold,notItalic,closed,FitPage,-1
+		18.6.1 Connection to Latent-Variable Modeling/678,Black,notBold,notItalic,closed,FitPage,-1
+		18.6.2 Relationship with Partial Least Squares/680,Black,notBold,notItalic,closed,FitPage,-1
+		18.6.3 Pre-Conditioning for Feature Selection/681,Black,notBold,notItalic,closed,FitPage,-1
+	18.7 Feature Assessment and the Multiple-Testing Problem./683,Black,notBold,notItalic,closed,FitPage,-1
+		18.7.1 The False Discovery Rate/687,Black,notBold,notItalic,closed,FitPage,-1
+		18.7.2 Asymmetric Cutpoints and the SAM Procedure/690,Black,notBold,notItalic,closed,FitPage,-1
+		18.7.3 A Bayesian Interpretation of the FDR/692,Black,notBold,notItalic,closed,FitPage,-1
+	18.8 	Bibliographic Notes/693,Black,notBold,notItalic,closed,FitPage,-1
+	Exercises/694,Black,notBold,notItalic,closed,FitPage,-1
+References/699,Black,notBold,notItalic,closed,FitPage,-1
+Author Index/729,Black,notBold,notItalic,closed,FitPage,-1
+Index/737,Black,notBold,notItalic,closed,FitPage,-1

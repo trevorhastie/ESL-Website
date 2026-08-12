@@ -1,0 +1,91 @@
+T. Hastie, R. Tibshirani and J. Friedman (2001) The Elements of Statistical
+Learning: Data Mining, Inference, and Prediction.  New York: Springer.
+533+xvi pages. $79.95.
+
+In the full springtime of a field, it is rare that some of it's best
+gardeners take the time to give us a report on what's blooming.  Statistical
+learning is a grafting of offshoots of  artificial intelligence, now called
+machine learning, to the statistical technology of classification,
+prediction, and forecasting.  The authors aim to synthesize of the efforts
+of these two communities with a view to predicting what types of growth are
+likely to survive, perhaps with a bit of weeding along the way.
+
+This book is important to the psychometric community for many reasons.  The
+contemporary classification literature owes much to the algorithmic
+approaches to data analysis that flourished here in the sixties and
+seventies, as well as to the data analysis movement of that period where
+some valuable lateral thinking by pioneers like Doug Carroll, Jan de Leeuw,
+Joseph Kruskal, Roger Shepherd and Forrest Young open up approaches not
+based on classical probability theory and mathematical statistics.  And we
+may add to this the central role of classification, prediction, and what is
+now called data mining, in the practice and in  research in the educational
+and  behavioral sciences.  Perhaps it's time for to return to these issues
+with new enthusiasm and insights, and this book might just be what we need.
+The book builds in many ways on Brian Ripley's Pattern Recognition (1996)
+but the unhappy omission of the Leiden group's Gifi volume (Gifi, 1990) from
+the bibliography suggests that the statistical learning community has
+something to gain, too.
+
+The initial chapters, 1 to 6, contain an overview of statistical material on
+linear methods for regression and classification.  Supervised learning is
+defined as the use of training samples to develop promising models, followed
+by the assessment of their performance on validation and test data.  Nearest
+neighbor nonparametric approaches are also presented in order to compare
+these older tools in terms of the inevitable tradeoff between bias and
+sampling variance.  Basis function expansions of functions, regularization
+or smoothing and kernel methods are also introduced to support the more
+extensive use of functional or nonparametric methods in current research.
+
+The next two chapters are pivotal; they deal with methods for comparing
+model performances, assessing model dimensionality, and important algorithms
+such as EM and MCMC.  The authors are right, too, to stress how important
+model interpretability is to our client communities, something that is a
+plus for tree-based approaches (Breiman, Friedman, Olshen, and Stone, 1984)
+but a problem for local or kernel procedures.
+
+Chapters 9 through 13 deal with the main business of the book.  Additive
+(Hastie and Tibshirani, 1990) and tree models come first, along with bump
+hunting and multivariate regression splines, perhaps because the authors
+themselves are leading contributors in these areas.  Boosting methods for
+enhancing tree-based classification are currently generating a lot of
+excitement, and there are some important insights into how boosting works,
+which is essentially by summing a sequence of models for residuals.  Neural
+networks are considered next, and linked to projection pursuit models.
+Support vector machines, nonparametric discriminant analysis, prototype and
+nearest neighbor classification methods follow.  The final chapter reviews
+unsupervised learning methods such as cluster analysis, self-organizing maps
+and variants of principal components analysis, where there is no correct
+classification or explicit outcome variables to guide model construction.
+
+Well chosen data sets of a serious size and clear applied significance,
+drawn from problems such as character recognition, prostate cancer
+forecasting, spam detection and microarray analysis, are used in
+illustrations.  The book pioneers the use of color graphics in textbook
+publishing, and some of the displays are stunning.   These authors write
+well, too.
+
+What do we need to know to profit from this book?  A fair amount, in my
+estimation.  It is a must for those already working in some of the areas
+mentioned above, but some previous exposure to concepts such as trees and
+additive models is also nearly essential since topics are often mentioned
+and used in earlier chapters, well before they are defined and taken up in
+detail later.  This rather casual attitude towards organization is apt to
+make the book a tough read for total newcomers and for students.
+
+These are not a complaints, however, since the immediacy of the treatment
+and the excitement that comes with timeliness more than compensate for the
+sacrifice of polish and exposition that we expect in texts on more mature
+areas. This is a landmark volume, and this reviewer rates it as a Best Buy.
+
+References
+
+Breiman, L., Friedman, J, Olshen, R. and Stone, C. (1994) Classification and
+Regression Trees,  Belmont, Calif.: Wadsworth.
+
+Gifi, A. (1990) Nonlinear multivariate analysis, New York: Wiley.
+
+Hastie, T. and Tibshirani, R. (1993) Generalized Additive Models, London:
+Chapman and Hall.
+
+Ripley, B. D. (1996) Pattern Recognition and Neural Networks. Cambridge:
+Cambridge University Press.
