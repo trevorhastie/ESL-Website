@@ -1,0 +1,62 @@
+---
+title: "The Elements of Statistical Learning"
+pagetitle: "The Elements of Statistical Learning"
+toc: false
+page-layout: full
+---
+
+::: {.hero}
+![Cover of The Elements of Statistical Learning, Second Edition](CoverII_small.jpg)
+
+::: {style="align-self:center"}
+<p class="eyebrow">Second edition · corrected 12th printing</p>
+
+# The Elements of Statistical Learning
+
+<p class="book-subtitle">Data Mining, Inference, and Prediction</p>
+
+<p class="dek">A broad, concept-first treatment of statistical learning, richly illustrated with examples.</p>
+
+<p class="authors"><span class="author"><a href="https://hastie.su.domains/">Trevor Hastie</a><span class="author-card"><img src="th.gif" alt="Portrait of Trevor Hastie"></span></span> · <span class="author"><a href="https://tibshirani.su.domains/">Robert Tibshirani</a><span class="author-card"><img src="rob.jpg" alt="Portrait of Robert Tibshirani"></span></span> · <span class="author"><a href="https://statistics.stanford.edu/people/jerome-h-friedman">Jerome Friedman</a><span class="author-card"><img src="friedman.gif" alt="Portrait of Jerome Friedman"></span></span></p>
+
+<div class="actions"><a class="action primary" href="book/index.html">Read and download</a><a class="action" href="errata/">View errata</a></div>
+:::
+:::
+
+::: {.quick-grid}
+::: {.quick-card}
+### Data
+
+Download the datasets used throughout the book, with descriptions and training/test splits.
+
+[Browse datasets →](resources/data.qmd)
+:::
+
+::: {.quick-card}
+### Errata
+
+Corrections organized by printing, including updates not yet reflected in the online edition.
+
+[Review corrections →](errata/index.qmd)
+:::
+
+::: {.quick-card}
+### Software
+
+Find related R packages for lasso, boosting, discriminant analysis, principal curves, and more.
+
+[Explore R packages →](resources/packages.qmd)
+:::
+:::
+
+## About the book
+
+The second edition brings together the important ideas of statistics, data mining, machine learning, and bioinformatics in a common conceptual framework. Its coverage spans supervised and unsupervised learning, including neural networks, support vector machines, trees, boosting, random forests, graphical models, and methods for wide data.
+
+> “...a beautiful book.” — David Hand, *Biometrics*
+
+## Latest
+
+The corrected 12th printing has been available online since January 2017. References in the book to the former Stanford URL should now use `hastie.su.domains/ElemStatLearn`.
+
+[See all news →](news/index.qmd)

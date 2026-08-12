@@ -1,0 +1,17 @@
+---
+title: "Related R packages"
+---
+
+These packages implement methods discussed in or closely related to the book.
+
+| Package | Use |
+|---|---|
+| [glmnet](https://cran.r-project.org/package=glmnet) | Lasso and elastic-net regularized generalized linear models |
+| [mda](https://cran.r-project.org/package=mda) | Flexible and mixture discriminant analysis |
+| [lars](https://cran.r-project.org/package=lars) | Efficient least-angle regression and lasso paths |
+| [gbm](https://cran.r-project.org/package=gbm) | Gradient boosting |
+| [princurve](https://cran.r-project.org/package=princurve) | Principal curves |
+| [bootstrap](https://cran.r-project.org/package=bootstrap) | Bootstrap and cross-validation routines |
+
+Package links should be reviewed periodically because software availability changes independently of the book.
+

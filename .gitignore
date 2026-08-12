@@ -1,0 +1,7 @@
+/_site/
+/tmp/*
+!/tmp/.gitkeep
+
+
+/.quarto/
+**/*.quarto_ipynb

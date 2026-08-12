@@ -1,0 +1,9 @@
+.quarto-title-block { display: none; }
+.editorial-hero { background: #edf0ea; border-left: .65rem solid #e04e2a; margin: 1.25rem 0 2rem; padding: clamp(2rem, 7vw, 6rem); }
+.issue { color: #315642; font-size: .75rem; font-weight: 800; letter-spacing: .16em; }
+.editorial-hero h1 { color: #172e24; font-family: Georgia, serif; font-size: clamp(3rem, 8vw, 6.5rem); letter-spacing: -.045em; line-height: .92; max-width: 14ch; }
+.editorial-dek { color: #42584d; font-size: clamp(1.15rem, 2vw, 1.45rem); max-width: 45rem; }
+.editorial-authors { border-left: 1px solid #819087; font-family: Georgia, serif; line-height: 1.6; margin: 2rem 0; padding-left: 1rem; }
+.editorial-strip { display: flex; flex-wrap: wrap; gap: .6rem 1rem; margin: 2rem 0 4rem; }
+.editorial-strip span { color: #68756e; }
+

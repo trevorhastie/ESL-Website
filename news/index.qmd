@@ -1,0 +1,15 @@
+---
+title: "News"
+listing: false
+---
+
+## Corrected 12th printing available
+
+**January 2017** — The online book was updated to the corrected 12th printing, including its table of contents.
+
+## Website address updated
+
+**2022** — References to `www-stat.stanford.edu/ElemStatLearn` should use `hastie.su.domains/ElemStatLearn`.
+
+Future events, releases, and resource updates will appear here as dated entries.
+

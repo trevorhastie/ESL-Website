@@ -1,0 +1,27 @@
+---
+title: "Design B — Editorial"
+pagetitle: "Design B — Editorial"
+toc: false
+page-layout: full
+css: editorial.css
+---
+
+::: {.editorial-hero}
+<p class="issue">THE DEFINITIVE TEXT · SECOND EDITION</p>
+
+# Statistical learning, from foundations to modern methods.
+
+<p class="editorial-dek"><em>The Elements of Statistical Learning</em> brings statistics, data mining, inference, and prediction into one conceptual framework.</p>
+
+<p class="editorial-authors">Trevor Hastie<br>Robert Tibshirani<br>Jerome Friedman</p>
+
+<div class="actions"><a class="action primary" href="../book/">Open the book</a><a class="action" href="../resources/data.html">Explore the data</a></div>
+:::
+
+::: {.editorial-strip}
+**Corrected 12th printing** <span>January 2017</span> · **18 chapters** <span>763 pages</span> · **Open resources** <span>Data and software</span>
+:::
+
+## Character
+
+Typography-led and contemporary. This direction de-emphasizes the cover and presents the site more like an enduring academic publication.

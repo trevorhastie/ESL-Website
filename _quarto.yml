@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "book/*.qmd"
+    - "resources/*.qmd"
+    - "errata/*.qmd"
+    - "news/*.qmd"
+    - "design-preview/*.qmd"
+
+website:
+  title: "The Elements of Statistical Learning"
+  site-url: "https://hastie.su.domains/ElemStatLearn/"
+  navbar:
+    pinned: true
+    left:
+      - text: Book
+        href: book/index.qmd
+      - text: Errata
+        href: errata/index.qmd
+      - text: Data
+        href: resources/data.qmd
+      - text: R packages
+        href: resources/packages.qmd
+      - text: News
+        href: news/index.qmd
+  page-footer:
+    left: "The Elements of Statistical Learning, Second Edition"
+    right: "Hastie · Tibshirani · Friedman"
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta property="og:title" content="The Elements of Statistical Learning">
+        <meta property="og:description" content="Book, data, errata, and resources for The Elements of Statistical Learning.">
+        <meta property="og:image" content="https://hastie.su.domains/ElemStatLearn/CoverII.jpg">
+execute:
+  enabled: false

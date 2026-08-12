@@ -1,0 +1,24 @@
+---
+title: "The book"
+---
+
+## Second edition
+
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman (Springer, 2009), 763 pages.
+
+The book develops the important ideas in statistical learning in a common conceptual framework, emphasizing concepts and examples. The second edition adds graphical models, random forests, ensemble methods, least-angle regression and lasso path algorithms, non-negative matrix factorization, spectral clustering, and methods for wide data.
+
+::: {.callout-note}
+Copyright is held by Springer Science+Business Media, LLC, which has agreed to allow the book to remain available on the web.
+:::
+
+[Download the corrected 12th-printing PDF](../printings/ESLII_print12_toc.pdf.download.html){.btn .btn-primary target="_blank"}
+
+[View the table of contents](../contents.pdf) · [Purchase from Springer](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+
+## Authors
+
+- [Trevor Hastie](https://hastie.su.domains/)
+- [Robert Tibshirani](https://tibshirani.su.domains/)
+- Jerome Friedman
+

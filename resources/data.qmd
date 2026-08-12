@@ -1,0 +1,98 @@
+---
+title: "Datasets"
+toc: false
+---
+
+The datasets used in the book remain available in their original formats. “Info” links describe provenance, variables, and formatting where supplied.
+
+::: {.data-list}
+::: {.data-item}
+**14-cancer microarray**
+[Info](../datasets/14cancer.info.txt) · [X train](../datasets/14cancer.xtrain) · [Y train](../datasets/14cancer.ytrain) · [X test](../datasets/14cancer.xtest) · [Y test](../datasets/14cancer.ytest)
+:::
+::: {.data-item}
+**Bone mineral density**
+[Info](../datasets/bone.info.txt) · [Data](../datasets/bone.data) · [Extended CSV](../datasets/spnbmd.csv)
+:::
+::: {.data-item}
+**Countries**
+[Info](../datasets/countries.info.txt) · [Data](../datasets/countries.data)
+:::
+::: {.data-item}
+**Galaxy**
+[Info](../datasets/galaxy.info.txt) · [Data](../datasets/galaxy.data)
+:::
+::: {.data-item}
+**Los Angeles ozone**
+[Info](../datasets/LAozone.info.txt) · [Data](../datasets/LAozone.data)
+:::
+::: {.data-item}
+**Marketing**
+[Info](../datasets/marketing.info.txt) · [Data](../datasets/marketing.data)
+:::
+::: {.data-item}
+**Mixture simulation**
+[Info](../datasets/mixture.example.info.txt) · [R data](../datasets/ESL.mixture.rda)
+:::
+::: {.data-item}
+**NCI microarray**
+[Info](../datasets/nci.info.txt) · [CSV](../datasets/nci.data.csv) · [Labels](../datasets/nci.label.txt)
+:::
+::: {.data-item}
+**NMR**
+[CSV](../datasets/nmr1.csv)
+:::
+::: {.data-item}
+**Ozone**
+[Info](../datasets/ozone.info.txt) · [Data](../datasets/ozone.data)
+:::
+::: {.data-item}
+**Phoneme**
+[Info](../datasets/phoneme.info.txt) · [Data](../datasets/phoneme.data)
+:::
+::: {.data-item}
+**Prostate**
+[Info](../datasets/prostate.info.txt) · [Data](../datasets/prostate.data)
+:::
+::: {.data-item}
+**Protein flow cytometry**
+[Info](../datasets/sachs.info.txt) · [Data](../datasets/sachs.data) · [Covariance matrix](../datasets/sachs.covmatrix)
+:::
+::: {.data-item}
+**Radiation sensitivity**
+[Info](../datasets/radsens.info.txt) · [Gene expression](../datasets/radsens.x) · [Outcome](../datasets/radsens.y)
+:::
+::: {.data-item}
+**SRBCT microarray**
+[Info](../datasets/khan.info.txt) · [X train](../datasets/khan.xtrain) · [Y train](../datasets/khan.ytrain) · [X test](../datasets/khan.xtest) · [Y test](../datasets/khan.ytest)
+:::
+::: {.data-item}
+**Signatures**
+[Info](../datasets/signatures.txt) · [CSV](../datasets/signatureData.csv)
+:::
+::: {.data-item}
+**Skin of the Orange**
+[Info](../datasets/orange/orange.info) · [4D train](../datasets/orange/orange4.train.gz) · [4D test](../datasets/orange/orange4.test.gz) · [10D train](../datasets/orange/orange10.train.gz) · [10D test](../datasets/orange/orange10.test.gz)
+:::
+::: {.data-item}
+**South African heart disease**
+[Info](../datasets/SAheart.info.txt) · [Data](../datasets/SAheart.data)
+:::
+::: {.data-item}
+**Spam**
+[Info](../datasets/spam.info.txt) · [Data](../datasets/spam.data) · [Train/test indicator](../datasets/spam.traintest)
+:::
+::: {.data-item}
+**Vowel**
+[Info](../datasets/vowel.info.txt) · [Training](../datasets/vowel.train) · [Test](../datasets/vowel.test)
+:::
+::: {.data-item}
+**Waveform**
+[Info](../datasets/waveform.info.txt) · [Training](../datasets/waveform.train) · [Test](../datasets/waveform.test) · [Generator](../datasets/waveform.S)
+:::
+::: {.data-item}
+**ZIP code digits**
+[Info](../datasets/zip.info.txt) · [Training](../datasets/zip.train.gz) · [Test](../datasets/zip.test.gz)
+:::
+:::
+

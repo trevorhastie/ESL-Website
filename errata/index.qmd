@@ -1,0 +1,43 @@
+---
+title: "Errata"
+---
+
+Corrections are grouped by printing so readers can quickly determine whether a change is reflected in their copy.
+
+## After the 12th printing
+
+These corrections are not yet reflected in the January 2017 online edition.
+
+| Page / location | Correction |
+|---|---|
+| 8, line −6 | “successfully” |
+| 12, line +4 | If X includes a column of 1s, we have an affine set; if not, we have a hyperplane. |
+| 24, line −14 | “accuracy as function(s) in low…” |
+| 47, line 16 | The linear-model assumption is also needed for the scale estimate to be unbiased. |
+| 55, below (3.30) | Gamma is a *unit* upper-triangular matrix, with 1s on the diagonal. |
+| 66, near top | U is not square; it has orthonormal columns but is not orthogonal. |
+| 85, above (3.70) | Use “a generalized inverse.” In (3.71), P~m~ is not an orthogonal projection operator. |
+| 89, line −5 | The first case should have N > p. |
+| 161, above §5.6 | The CV curve is *below*, not above, the EPE curve. |
+| 193, last line | “multiples” should be “multiplies.” |
+| 213, (6.31) | The denominator index should be different from i. |
+| 224, (7.12) | Function f should carry superscript p. |
+| 301 and 326 | Test error for GAM should be 5.5%, not 5.3%. |
+| 313–314 | The displayed bands are one standard error; the one-SE rule gives 21 terminal nodes, while 17 was selected where the curve flattens. |
+| 371, line 6 | There are 20,640 rows, not 20,460. |
+| 390, line 8 | The function does not change in the direction perpendicular to (1,1)^T^. |
+| 397 | Robbins and Monro; use 1951 in the references and author index. |
+| 509–510, (14.31)–(14.33) | W(C) needs 1/N~k~ after the first sum; N~k~ then disappears from the following expressions, giving the correct K-means objective. |
+| 517, line −12 | China, not Chile. |
+| 528, final paragraph | “smallest,” not “largest”; continue until the difference becomes positive, not negative. |
+| 548–550 | “separate two groups” should be “separate three groups.” |
+| 574, (14.104) | Add a constraint such as Y^T^Y = I to avoid the trivial solution Y = 0. |
+| 579 | Bold L should be bold I; “von Luxburg” is the correct spelling. |
+| 585, Ex. 14.24(b) | Assume the sum of all x~ij~ is 1, or change the definition of c. |
+| 639, (17.31) | Use Pr~Θ~(X = x~i~), not Pr~Θ~(X~i~ = x~i~). |
+| 713, Huber (1964) | The volume is 35, not 53. |
+
+Thanks to the readers who reported these corrections. Contributor names and all earlier-printing errata remain available on the [complete legacy errata page](../errata2.html) while the historical groups are converted to structured content.
+
+The separate [K-means explanation](../errata-kmeans.pdf) remains available.
+
