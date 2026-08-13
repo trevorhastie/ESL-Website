@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "resources/packages.html",
+    "href": "resources/packages.html",
+    "title": "Related R packages",
+    "section": "",
+    "text": "These packages implement methods discussed in or closely related to the book.\n\n\n\nPackage\nUse\n\n\n\n\nglmnet\nLasso and elastic-net regularized generalized linear models\n\n\nmda\nFlexible and mixture discriminant analysis\n\n\nlars\nEfficient least-angle regression and lasso paths\n\n\ngbm\nGradient boosting\n\n\nprincurve\nPrincipal curves\n\n\nbootstrap\nBootstrap and cross-validation routines\n\n\n\nPackage links should be reviewed periodically because software availability changes independently of the book."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "January 2017 — The online book was updated to the corrected 12th printing, including its table of contents."
+  },
+  {
+    "objectID": "news/index.html#corrected-12th-printing-available",
+    "href": "news/index.html#corrected-12th-printing-available",
+    "title": "News",
+    "section": "",
+    "text": "January 2017 — The online book was updated to the corrected 12th printing, including its table of contents."
+  },
+  {
+    "objectID": "news/index.html#website-address-updated",
+    "href": "news/index.html#website-address-updated",
+    "title": "News",
+    "section": "Website address updated",
+    "text": "Website address updated\n2022 — References to www-stat.stanford.edu/ElemStatLearn should use hastie.su.domains/ElemStatLearn.\nFuture events, releases, and resource updates will appear here as dated entries."
+  },
+  {
+    "objectID": "errata/index.html",
+    "href": "errata/index.html",
+    "title": "Errata",
+    "section": "",
+    "text": "Corrections are grouped by printing so readers can quickly determine whether a change is reflected in their copy."
+  },
+  {
+    "objectID": "errata/index.html#after-the-12th-printing",
+    "href": "errata/index.html#after-the-12th-printing",
+    "title": "Errata",
+    "section": "After the 12th printing",
+    "text": "After the 12th printing\nThese corrections are not yet reflected in the January 2017 online edition.\n\n\n\n\n\n\n\nPage / location\nCorrection\n\n\n\n\n8, line −6\n“successfully”\n\n\n12, line +4\nIf X includes a column of 1s, we have an affine set; if not, we have a hyperplane.\n\n\n24, line −14\n“accuracy as function(s) in low…”\n\n\n47, line 16\nThe linear-model assumption is also needed for the scale estimate to be unbiased.\n\n\n55, below (3.30)\nGamma is a unit upper-triangular matrix, with 1s on the diagonal.\n\n\n66, near top\nU is not square; it has orthonormal columns but is not orthogonal.\n\n\n85, above (3.70)\nUse “a generalized inverse.” In (3.71), Pm is not an orthogonal projection operator.\n\n\n89, line −5\nThe first case should have N &gt; p.\n\n\n161, above §5.6\nThe CV curve is below, not above, the EPE curve.\n\n\n193, last line\n“multiples” should be “multiplies.”\n\n\n213, (6.31)\nThe denominator index should be different from i.\n\n\n224, (7.12)\nFunction f should carry superscript p.\n\n\n301 and 326\nTest error for GAM should be 5.5%, not 5.3%.\n\n\n313–314\nThe displayed bands are one standard error; the one-SE rule gives 21 terminal nodes, while 17 was selected where the curve flattens.\n\n\n371, line 6\nThere are 20,640 rows, not 20,460.\n\n\n390, line 8\nThe function does not change in the direction perpendicular to (1,1)T.\n\n\n397\nRobbins and Monro; use 1951 in the references and author index.\n\n\n509–510, (14.31)–(14.33)\nW(C) needs 1/Nk after the first sum; Nk then disappears from the following expressions, giving the correct K-means objective.\n\n\n517, line −12\nChina, not Chile.\n\n\n528, final paragraph\n“smallest,” not “largest”; continue until the difference becomes positive, not negative.\n\n\n548–550\n“separate two groups” should be “separate three groups.”\n\n\n574, (14.104)\nAdd a constraint such as YTY = I to avoid the trivial solution Y = 0.\n\n\n579\nBold L should be bold I; “von Luxburg” is the correct spelling.\n\n\n585, Ex. 14.24(b)\nAssume the sum of all xij is 1, or change the definition of c.\n\n\n639, (17.31)\nUse PrΘ(X = xi), not PrΘ(Xi = xi).\n\n\n713, Huber (1964)\nThe volume is 35, not 53.\n\n\n\nThanks to the readers who reported these corrections. Contributor names and all earlier-printing errata remain available on the complete legacy errata page while the historical groups are converted to structured content.\nThe separate K-means explanation remains available."
+  },
+  {
+    "objectID": "design-preview/editorial.html",
+    "href": "design-preview/editorial.html",
+    "title": "Design B — Editorial",
+    "section": "",
+    "text": "THE DEFINITIVE TEXT · SECOND EDITION\n\n\n\n\nThe Elements of Statistical Learning brings statistics, data mining, inference, and prediction into one conceptual framework.\n\n\nTrevor HastieRobert TibshiraniJerome Friedman\n\n\nOpen the bookExplore the data"
+  },
+  {
+    "objectID": "design-preview/editorial.html#character",
+    "href": "design-preview/editorial.html#character",
+    "title": "Design B — Editorial",
+    "section": "Character",
+    "text": "Character\nTypography-led and contemporary. This direction de-emphasizes the cover and presents the site more like an enduring academic publication."
+  },
+  {
+    "objectID": "book/index.html",
+    "href": "book/index.html",
+    "title": "The book",
+    "section": "",
+    "text": "Trevor Hastie, Robert Tibshirani, and Jerome Friedman (Springer, 2009), 763 pages.\nThe book develops the important ideas in statistical learning in a common conceptual framework, emphasizing concepts and examples. The second edition adds graphical models, random forests, ensemble methods, least-angle regression and lasso path algorithms, non-negative matrix factorization, spectral clustering, and methods for wide data.\n\n\n\n\n\n\nNote\n\n\n\nCopyright is held by Springer Science+Business Media, LLC, which has agreed to allow the book to remain available on the web.\n\n\nDownload the corrected 12th-printing PDF\nView the table of contents · Purchase from Springer"
+  },
+  {
+    "objectID": "book/index.html#second-edition",
+    "href": "book/index.html#second-edition",
+    "title": "The book",
+    "section": "",
+    "text": "Trevor Hastie, Robert Tibshirani, and Jerome Friedman (Springer, 2009), 763 pages.\nThe book develops the important ideas in statistical learning in a common conceptual framework, emphasizing concepts and examples. The second edition adds graphical models, random forests, ensemble methods, least-angle regression and lasso path algorithms, non-negative matrix factorization, spectral clustering, and methods for wide data.\n\n\n\n\n\n\nNote\n\n\n\nCopyright is held by Springer Science+Business Media, LLC, which has agreed to allow the book to remain available on the web.\n\n\nDownload the corrected 12th-printing PDF\nView the table of contents · Purchase from Springer"
+  },
+  {
+    "objectID": "book/index.html#authors",
+    "href": "book/index.html#authors",
+    "title": "The book",
+    "section": "Authors",
+    "text": "Authors\n\nTrevor Hastie\nRobert Tibshirani\nJerome Friedman"
+  },
+  {
+    "objectID": "design-preview/modern-classic.html",
+    "href": "design-preview/modern-classic.html",
+    "title": "Design A — Modern Classic",
+    "section": "",
+    "text": "Book cover\n\n\n\n\nSecond edition · corrected 12th printing\n\n\n\n\nData Mining, Inference, and Prediction\n\n\nA broad, concept-first treatment of statistical learning, richly illustrated with examples.\n\n\nTrevor Hastie · Robert Tibshirani · Jerome Friedman\n\n\nRead and downloadView errata"
+  },
+  {
+    "objectID": "design-preview/modern-classic.html#character",
+    "href": "design-preview/modern-classic.html#character",
+    "title": "Design A — Modern Classic",
+    "section": "Character",
+    "text": "Character\nRecognizable, scholarly, and calm. The physical book is the visual anchor."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Elements of Statistical Learning",
+    "section": "",
+    "text": "Cover of The Elements of Statistical Learning, Second Edition\n\n\n\n\nSecond edition · corrected 12th printing\n\n\n\n\nData Mining, Inference, and Prediction\n\n\nA broad, concept-first treatment of statistical learning, richly illustrated with examples.\n\n\nTrevor Hastie · Robert Tibshirani · Jerome Friedman\n\n\nRead and downloadView errata"
+  },
+  {
+    "objectID": "index.html#about-the-book",
+    "href": "index.html#about-the-book",
+    "title": "The Elements of Statistical Learning",
+    "section": "About the book",
+    "text": "About the book\nThe second edition brings together the important ideas of statistics, data mining, machine learning, and bioinformatics in a common conceptual framework. Its coverage spans supervised and unsupervised learning, including neural networks, support vector machines, trees, boosting, random forests, graphical models, and methods for wide data.\n\n“…a beautiful book.” — David Hand, Biometrics"
+  },
+  {
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
+    "title": "The Elements of Statistical Learning",
+    "section": "Latest",
+    "text": "Latest\nThe corrected 12th printing has been available online since January 2017. References in the book to the former Stanford URL should now use hastie.su.domains/ElemStatLearn.\nSee all news →"
+  },
+  {
+    "objectID": "resources/data.html",
+    "href": "resources/data.html",
+    "title": "Datasets",
+    "section": "",
+    "text": "The datasets used in the book remain available in their original formats. “Info” links describe provenance, variables, and formatting where supplied.\n\n\n14-cancer microarray Info · X train · Y train · X test · Y test\n\n\nBone mineral density Info · Data · Extended CSV\n\n\nCountries Info · Data\n\n\nGalaxy Info · Data\n\n\nLos Angeles ozone Info · Data\n\n\nMarketing Info · Data\n\n\nMixture simulation Info · R data\n\n\nNCI microarray Info · CSV · Labels\n\n\nNMR CSV\n\n\nOzone Info · Data\n\n\nPhoneme Info · Data\n\n\nProstate Info · Data\n\n\nProtein flow cytometry Info · Data · Covariance matrix\n\n\nRadiation sensitivity Info · Gene expression · Outcome\n\n\nSRBCT microarray Info · X train · Y train · X test · Y test\n\n\nSignatures Info · CSV\n\n\nSkin of the Orange Info · 4D train · 4D test · 10D train · 10D test\n\n\nSouth African heart disease Info · Data\n\n\nSpam Info · Data · Train/test indicator\n\n\nVowel Info · Training · Test\n\n\nWaveform Info · Training · Test · Generator\n\n\nZIP code digits Info · Training · Test"
+  }
+]
