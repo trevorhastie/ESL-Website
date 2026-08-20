@@ -1,0 +1,21 @@
+how would i resume from this point in a new session
+
+
+• Start a new Codex session in:
+
+
+  ~/GITHUB/ESL-Website
+
+M-x codex in emacs to start the session
+
+  Then say:
+
+  Read AGENTS.md and WORKFLOW.md. Resume the ESL Quarto migration from commit fdfd18a. Modern Classic is the selected design.
+  First inspect the current Git status and summarize the next recommended step before making changes.
+
+  The committed checkpoint is:
+
+  fdfd18a
+
+  Your untracked legacy files will still be present locally, so the new session should not delete them without reviewing
+  AUDIT.md.

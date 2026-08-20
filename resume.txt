@@ -19,3 +19,48 @@ M-x codex in emacs to start the session
 
   Your untracked legacy files will still be present locally, so the new session should not delete them without reviewing
   AUDIT.md.
+
+
+
+Later say to make the GITHUB pages version of this site
+
+
+GITHUB pages version 
+
+• The quickest route is Quarto’s built-in GitHub Pages publisher. Your site should appear at:
+
+  https://trevorhastie.github.io/ESL-Website/
+
+  From Terminal:
+
+  cd ~/GITHUB/ESL-Website
+  git push origin main
+  quarto publish gh-pages
+
+  When Quarto asks whether to publish, answer Y. It will render the site, create a gh-pages branch, and push the generated HTML.  _site/ remains excluded from the main branch. This is Quarto’s recommended simple publishing method. Quarto GitHub Pages guide  (https://quarto.org/docs/publishing/github-pages.html)
+
+  Then:
+
+  1. Visit github.com/trevorhastie/ESL-Website (https://github.com/trevorhastie/ESL-Website).
+  2. Select Settings → Pages.
+  3. Under Build and deployment, confirm:
+      - Source: Deploy from a branch
+      - Branch: gh-pages
+      - Folder: /(root)
+
+  4. Click Save if needed.
+  5. Visit:
+
+  https://trevorhastie.github.io/ESL-Website/
+
+  The first publication can take up to ten minutes. You can monitor it under the repository’s Actions tab. GitHub Pages
+  publishing documentation
+  (https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+  For later updates, commit your work and run:
+
+  git push origin main
+  quarto publish gh-pages
+
+  This publishes a public preview only; it does not affect hastie.su.domains.
+
